@@ -1,0 +1,66 @@
+/*smart phones*/
+@media(max-width:767px)
+{
+    .first_content
+    {
+        padding-top: 28%;
+    }
+    .first_content h1
+    {
+        font-size: 3em;
+    }
+    .first_content .intro-divider
+    {
+        width: 100%;
+    }
+    .first_content h3
+    {
+        font-size: 22px;
+    }
+    .links .second_links li , .first_links li
+    {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0; 
+    }
+        .text hr
+    {
+        width: 200px
+    }
+}
+/* small screen */
+@media (min-width:768px) and (max-width:991px)
+{
+    .text hr
+    {
+        width: 200px;
+    }
+    .Death_to_the_Stock_Photo hr ,.Device_Mockups hr ,.Google_Web_Fonts hr
+    {
+        margin: 20px 0px 45px 0px; 
+    }
+    .Death_to_the_Stock_Photo .text, .Device_Mockups .text, .Google_Web_Fonts .text
+    {
+        margin-top: 0px;
+    }
+}
+/*medium screen*/
+@media(min-width:992px) and (max-width:1199px)
+{
+        .text hr
+    {
+        width: 200px
+    }
+    .links .second_links
+    {
+      padding-top: 50px;  
+    }
+}
+/*large screen*/
+@media(min-width:1200px)
+{
+        .text hr
+    {
+        width: 200px
+    }
+}

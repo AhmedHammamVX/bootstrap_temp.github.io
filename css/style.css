@@ -1,0 +1,213 @@
+/** start navbar **/
+.navbar-default .navbar-nav > li > a
+{
+    font-family: tahoma;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+{
+    background-color:#9e9898;
+    color: white;
+}
+
+.navbar-fixed-top
+{
+    border-width:0px 0px 0px ;
+}
+
+
+/** end navbar **/
+
+/** start colorbox **/
+.option-box
+{
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    z-index: 1;
+}
+.option-box .color-option
+{
+    float: left;
+    background: #333;
+    color:white;
+    padding: 10px;
+    width: 170px;
+    height: 45px;
+    border: 2px solid #9e9898;
+    display: none;
+}
+.option-box .color-option ul li
+{
+    padding: 10px;
+    width: 10px;
+    background:white;
+    display: inline-block;
+    margin-right: 4px;
+}
+.gear-check
+{
+    background:#9e9898;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    color: white;
+    cursor: pointer;
+}
+/** end colorbox **/
+
+/** start first section **/
+.start_bootstrap
+{
+    background-image:url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    color:white;
+}
+
+.first_content
+{
+    padding-top: 25%;
+    padding-bottom: 22%;
+}
+
+.start_bootstrap h1
+{
+    font-size:5em ;
+}
+
+.intro-divider
+{
+    width:380px;
+}
+
+.first_links
+{
+    font-size: 21px;
+    font-family: tahoma;
+}
+
+.first_links .btn-lg, .btn-group-lg > .btn
+{
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.first_links .btn-default:hover
+{
+    background-color:#9e9898;
+    border-color:#9e9898; 
+    color:white;
+}
+/** end first section **/
+/** start second section **/
+.Death_to_the_Stock_Photo
+{
+    background-color:#f8f8f8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-height: 100%;
+    max-width:100%;
+    text-align: left;
+    border-bottom:0.5px solid #9e9898;
+}
+
+.Death_to_the_Stock_Photo .text ,.Device_Mockups .text ,.Google_Web_Fonts .text
+{
+    margin-top: 40px;
+}
+
+.Death_to_the_Stock_Photo hr ,.Device_Mockups hr ,.Google_Web_Fonts hr
+{
+
+    border-top: 3px solid #eee;
+    margin: 20px 0px 50px 0px; 
+}
+
+.Death_to_the_Stock_Photo p ,.Device_Mockups p ,.Google_Web_Fonts p 
+{
+    font-size: 18px;
+    margin-top: 30px;
+}
+/** end second section **/
+/** start third section **/
+.Device_Mockups
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 65px;
+    padding-bottom: 60px;
+    max-height: 100%;
+    max-width:100%;
+    text-align: left;
+    border-bottom:0.5px solid #9e9898;
+}
+/** end third section **/
+/** start fourth section **/
+.Google_Web_Fonts
+{
+    background-color:#f8f8f8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-height: 100%;
+    max-width:100%;
+    text-align: left;
+    border-bottom:0.5px solid #9e9898;
+}
+/** end fourth section **/
+/** start fifth section **/
+.Connect_to_Start_Bootstrap
+{
+   /** height: 250px; **/
+    background-image:url(../images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+.Connect_to_Start_Bootstrap h2
+{
+    color:white;
+    font-size: 2.9em;
+}
+.second_links
+{
+    padding-top: 25px
+}
+/** end fifth section **/
+/** start sexth section **/
+.final
+{
+    background-color:#f8f8f8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom :40px;
+    max-height: 100%;
+    max-width:100%;
+    text-align: center;
+}
+.final_links
+{
+    padding-top: 50px;
+}
+.final_links a
+{
+    font-weight: 300;
+}
+/** end sexth section **/

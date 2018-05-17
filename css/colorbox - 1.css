@@ -1,0 +1,25 @@
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .final_links a:hover, a:focus
+{
+    color:#89d0ef;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus , .gear-check
+{
+    background-color:#89d0ef;
+}
+
+.option-box .color-option
+{
+    border: 2px solid #89d0ef;
+}
+
+.first_links .btn-default:hover
+{
+    background-color:#89d0ef;
+    border-color:#89d0ef; 
+}
+
+.Death_to_the_Stock_Photo , .Google_Web_Fonts , .Device_Mockups
+{
+    border-bottom:0.5px solid #89d0ef;
+}
